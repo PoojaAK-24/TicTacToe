@@ -10,6 +10,7 @@ namespace TicTacToe
             char[] CreateBoard;
             UC1_InitializeBoard obj = new UC1_InitializeBoard();
             CreateBoard = obj.Board();
+            obj.ChoosePlayer();
 
 
         }
